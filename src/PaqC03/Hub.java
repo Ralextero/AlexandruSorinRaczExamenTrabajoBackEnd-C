@@ -31,23 +31,6 @@ public class Hub implements Serializable {
 
     }
 
-   /* public String toStringcolumna(int col){
-        String s="";
-        for (int i = 0; i < c.length; i++) {
-            if (c[i][col] == null){
-                s+= "[L]";
-            }
-            else{
-                s += "[O]";
-            }
-            s+="\n";
-        }
-        return s;
-
-    }
-
-    */
-
     public void apilar(Contenedor c1) {
         if (c1 != null) {
             if (c1.getPrioridad() == 1 || c1.getPrioridad() == 2) {

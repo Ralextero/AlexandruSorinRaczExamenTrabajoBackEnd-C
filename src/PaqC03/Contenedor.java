@@ -104,5 +104,11 @@ public class Contenedor extends Hub implements Serializable {
 
     }
     //esto es para comprobar si funciona commit
-
+public String toStringExamen(){
+        String s=new String();
+        s+="Numero de indentificador:"+ this.nidentificador+"\t"+"Empresa remitente:"+this.empresaenvio+"\t"+"Peso:"+this.peso+" ";
+    if(inspeccionado) s+="Inspeccionado";
+    else s+="No inspeccionado";
+    return s;
+    }
 }
